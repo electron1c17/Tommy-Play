@@ -16,4 +16,3 @@ def test_auth(driver_chrome):
     home_page.click_home()
     home_page.click_avatar()
     home_page.click_exit()
-    time
