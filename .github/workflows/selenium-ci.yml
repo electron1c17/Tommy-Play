@@ -25,4 +25,4 @@ jobs:
           sudo apt-get install -y xvfb
           Xvfb :99 
           export DISPLAY=:99
-          pytest tests
+          pytest tests 
