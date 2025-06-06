@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 class AuthPage:
     def __init__(self, driver):
         self.driver = driver
-        self.auth = (By.CSS_SELECTOR, "#global-nav-bar > div.N9r2VuXMBlhRSVF5dCek > div > div.LKFFk88SIRC9QKKUWR5u > button.encore-text-body-medium-bold.e-9921-button-primary.e-9921-button > span")
+        self.auth = (By.CSS_SELECTOR, "#global-nav-bar > div.N9r2VuXMBlhRSVF5dCek > div > div.LKFFk88SIRC9QKKUWR5u > button.encore-text-body-medium-bold.e-9921-button-primary.e-9921-button")
         self.login = (By.CSS_SELECTOR, "#login-username")
         self.login_btn = (By.CSS_SELECTOR, "#login-button")
         self.go_password = (By.CSS_SELECTOR, "#encore-web-main-content > div:nth-child(2) > div > div > div > form > div.EmailVerificationChallenge__InputBlock-sc-55dvy9-5.jipEUB > section > button")
