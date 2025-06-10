@@ -15,7 +15,7 @@ class AuthPage:
 
     def enter_login(self):
         wait = WebDriverWait(self.driver, 10)
-        wait.until(EC.presence_of_element_located(self.login)).send_keys("998931780951")
+        wait.until(EC.presence_of_element_located(self.login)).send_keys("phone")
 
     def click_auth_btn(self):
         wait = WebDriverWait(self.driver, 10)
@@ -23,7 +23,7 @@ class AuthPage:
 
     def enter_password(self):
         wait = WebDriverWait(self.driver, 10)
-        wait.until(EC.presence_of_element_located(self.password)).send_keys("murdagij")
+        wait.until(EC.presence_of_element_located(self.password)).send_keys("password")
 
     def click_dropdown(self):
         wait = WebDriverWait(self.driver, 10)
